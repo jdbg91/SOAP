@@ -12,7 +12,9 @@ wsimport -keep http://domain.com/soapws?wsdl [-s C:\destiny\path]
 
 Create an text file with the following content:
 
+~~~
 http://username:password@domain.com/soapws?wsdl
+~~~
 
 Put the file on C:\Users\Name\.metro\auth or user -Xauthfile option:
 
