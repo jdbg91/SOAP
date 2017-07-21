@@ -21,3 +21,7 @@ Put the file on C:\Users\Name\.metro\auth or user -Xauthfile option:
 ~~~
 wsimport [-Xauthfile C:\auth\file\path\file.txt] -keep http://domain.com/soapws?wsdl [-s C:\destiny\path]
 ~~~
+
+---
+
+Those steps will create a package with some Java classes which can be use to connect to the web service.
